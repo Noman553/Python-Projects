@@ -101,3 +101,58 @@ elif days == 6:
 elif days == 7:
     print("sunday")
 
+#let's use the else statement
+# we use the else statement when both if and elif statements are false
+print("lets try to use the else statement")
+voterAge = 20
+if voterAge == 18:
+    print("you are not qualified ")
+elif voterAge > 20:
+    print("congratulations")
+else:
+    print("please try next time")
+
+
+numebr = 7
+if number%2 == 0 :
+    print("The number is even")
+else:
+    print("the number is odd")
+
+# if you have only one line to print you can also use the shorthand if
+print("let's use the shorthand if")
+c = 10
+d = 20
+if c > d : print("the c is greater then the b")
+
+print("you can also use the if and else both statements in single line")
+print("c is less then the d") if c < d else print("c is not less then the d")
+
+#now let's use the nested if statement nested - If  statement are like if statement inside the if statement
+print("Nested if statement ")
+x = 14
+if x > 14 :
+    print("x is greater then 14")
+    if x == 14: # this is a nested condition it will only run when the outer if is true - or you can say the parent if is true
+        print("x is equal to 14")
+    else:
+        print("nothing")
+
+#let's say that i want that if a person is 18 and he also have license so print you can drive but if the person is 18 and do not have license print you need license and if he neither the adult and also do not have lisense print you are not adult
+print("lets try somthing")
+has_license = True
+age = 18
+if age >=18 :
+    if has_license:
+        print("you can drive")
+    else:
+        print("you need a license")
+else :
+    print("you are not adult")
+
+# what is a pass statement the thing is you can't let the if statement empty but for some reason if you have a empty if so can out it into the pass to avoid the error
+print("let's use the pass statement")
+a = 33
+b = 40
+if a > b :
+ pass
