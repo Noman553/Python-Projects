@@ -178,6 +178,11 @@ print(extendList1)
 #list data can be changed so use the list when You know that the data need to be changed like shopping cart
 
 
+# small training
+x = [1 , 2]
+y = x
+y.append(3)
+print(x)
 
 
 
